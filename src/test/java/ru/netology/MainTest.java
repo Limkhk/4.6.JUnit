@@ -1,3 +1,5 @@
+package ru.netology;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -15,7 +17,7 @@ public class MainTest {
         Assertions.assertEquals(expected, result);
     }
     @Test
-    public void testAreaCircle() {
+    public void areaCircleTest() {
         // arrange
         double expected = 452.16, a = 3.14;
         int b = 12;
@@ -25,7 +27,7 @@ public class MainTest {
         Assertions.assertEquals(expected, result);
     }
     @Test
-    public void lengthCircle() {
+    public void lengthCircleTest() {
         // arrange
         double expected = 75.36;
         int b = 12;
