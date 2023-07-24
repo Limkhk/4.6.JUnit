@@ -3,9 +3,8 @@ package ru.netology;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.netology.CircleArea;
 
-public class MainTest {
+public class CircleAreaTest {
     CircleArea circleArea;
 
     @BeforeEach
